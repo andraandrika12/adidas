@@ -1,0 +1,33 @@
+DB_PASSWORD=Etasakarenisa12
+
+DB_URI=postgresql://postgres:Etasakarenisa12@db.zeqxoztxcpykuvhpaqcn.supabase.co:5432/postgres
+
+export DATABASE_URL=postgresql://postgres:Etasakarenisa12@db.zeqxoztxcpykuvhpaqcn.supabase.co:5432/postgres
+
+token_key_git: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
+
+module.exports = {
+  apps: [{
+      name: "adidasProject",
+      script : './bin/www',
+      env: {
+        NODE_ENV: "production",
+        PORT: 80,
+        DATABASE_URL: "postgresql://postgres:Etasakarenisa12@db.zeqxoztxcpykuvhpaqcn.supabase.co:5432/postgres",
+        JWT_SECRET: "andraPunya",
+      }
+    }]
+}
+
+
+SERVER_URL: https://api.andraandrika.xyz/
+Project Console: https://console.firebase.google.com/project/brandprojectchallange1-deploy/overview
+Hosting URL: https://brandprojectchallange1-deploy.web.app
+
+QR_CODE: 6ZEhT_LJ04GZCyDMyM8upboqF4W32xeZvB1IQq0TqL4LeeIoHGRPQAakxJvSQ3T3
+
+----REACT----
+
+server: https://react.andraandrika.xyz/
+client-user: https://adidas-project-user.web.app
+client-admin: https://adidas-project-admin.web.app
